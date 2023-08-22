@@ -1,38 +1,309 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+* {
+  padding: 0;
+  margin: 0;
   }
+
+body {
+  background-color: #10125c;
+}
+.Body-div{
+  background-color: #10125c;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
+  background-color: #131444;
+  height: 80px;
+  width: 100%;
+}
+
+nav ul {
+  float: right;
+  margin-right: 40px;
+}
+
+nav ul li {
+
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  font-size: 22px;
+  color: white;
+  text-decoration: none;
+  font-style: none;
+  padding: 7px 13px;
+}
+
+nav ul li a:hover {
+  background-color: rgb(69, 8, 139);
+  transition: .5s;
+  border-radius: 3px;
+}
+
+.logo {
+  color: white;
+  font-size: 32px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+
+}
+
+.logo:hover {
+  color: #8b8dd8;
+  cursor: pointer;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+
+}
+
+.checkbtn:hover {
+  color: #8b8dd8;
+}
+
+#check {
+  display: none;
+}
+
+
+/* This is About Css */
+
+.About {
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin: 10vh 0;
+  width: 40%;
+}
+
+.About-Section {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  width: 96%;
+  margin: 0 2%;
+}
+
+h1 {
+  color:white;
+  text-align: justify;
+  text-justify: inter-word;
+  text-decoration: underline;
+  margin: 10px 20px;
+}
+
+h3 {
+  color:white;
+  margin: 2vh 0;
+  text-align: justify;
+  text-justify: inter-word;
+  text-decoration: underline;
+}
+
+p {
+  margin: 10px 20px;
+  text-align: justify;
+  text-justify: inter-word;
+
+}
+
+
+/* Css for Typed */
+.TypedApp {
+  margin: 20vh 28%;
+
+
+}
+
+.wrap-text-p {
+  font-size: 45px;
+  justify-content: center;
+
+}
+
+.wrap-text-p2 {
+  font-size: 30px;
+  justify-content: center;
+
+}
+
+.wrap-text-p3 {
+  color: white;
+  background-color: #262bb6;
+  border-radius: 50%;
+  padding: 6px 11px;
+}
+
+.wrap-text-p3:hover {
+  font-size: 31px;
+
+}
+
+.text-726060 {
+  color: white;
+
+}
+
+.text-white {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.animation_text {
+  font-size: 37px;
+  font-weight: 700;
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+/* CSS for carosel */
+h2 {
+  color: white;
+}
+
+/* Form css  */
+.form-div-1 {
+  margin: 20px 0;
+  width: 100%;
+
+}
+
+.fom {
+  border: 2px solid white;
+  width: 38%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.fom-div {
+
+  width: 95%;
+}
+@media (max-width:875px) {
+  nav ul li a {
+    font-size: 13px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .logo {
+    font-size: 24px;
+    padding-left: 50px;
+
+  }
+
+}
+
+@media (max-width:664px) {
+  .checkbtn {
+    display: block;
+  }
+
+  ul {
+    position: fixed;
+    width: 50%;
+    height: 100vh;
+    background-color: transparent;
+
+    top: 65px;
+    left: -50%;
+    text-align: center;
+    transition: all .5s;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 40px 0;
+    line-height: 10px;
+  }
+
+  nav ul li a {
+    color: white;
+    background-color: rgb(69, 8, 139);
+    font-weight: bold;
+    border-radius: 50px;
+    font-size: 15px;
+    opacity: 100%;
+  }
+
+  #check:checked~ul {
+    left: 0;
+  }
+  .animation_text {
+    font-size: 14px;
+    font-weight: 700;
+    background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+
+  .TypedApp {
+    margin: 20vh 10%;
+
+
+  }
+
+  .wrap-text-p {
+    font-size: 17px;
+    justify-content: center;
+
+  }
+
+  .wrap-text-p2 {
+    font-size: 13px;
+    justify-content: center;
+
+  }
+
+  .wrap-text-p3 {
+    color: white;
+    background-color: #262bb6;
+    border-radius: 50%;
+    padding: 6px 11px;
+    font-size: 15px;
+  }
+
+  .wrap-text-p3:hover {
+    font-size: 16px;
+
+  }
+  p {
+    font-style: none;
+    text-decoration: none;
+    font-size: smaller;
+    word-spacing: -1px;
+
+  }
+
+  .About {
+    width: 100%;
+  }
+  .form-div-1 {
+    width: 100%;
+
+  }
+
+  .fom {
+    border: 2px solid white;
+    width: 95%;
+    height: 100%;
+    border-radius: 20px;
+  }
+
+  .fom-div {
+
+    width: 95%;
   }
 }

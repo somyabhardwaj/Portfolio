@@ -5,7 +5,7 @@ import Texteditor from './Texteditor.png';
 const projects = () => {
   return (
     <>
-    <h2 id="projects"  className="d-flex justify-content-center  align-items-center flex-md-column">My Projects</h2>
+    <h2 id="projects" style={{color:'white'}}  className="text-white  d-flex justify-content-center  align-items-center flex-md-column">My Projects</h2>
       <div className="d-flex justify-content-center  align-items-center ">
       
       <div id="carouselExampleAutoplaying" className=  "d-flex justify-content-center carousel slide w-100" data-bs-ride="carousel">

@@ -8,7 +8,8 @@ import Foms from './components/Foms';
 
 function App() {
   return (
-   <>
+   <div className="Body-div">
+   
    <Navbar />
   <TypedAbout />
   <Projects />
@@ -16,7 +17,7 @@ function App() {
    <About />
   
 
-   </>
+   </div>
   );
 }
 

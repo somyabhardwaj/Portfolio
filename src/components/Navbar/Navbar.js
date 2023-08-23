@@ -7,7 +7,7 @@ function Navbar() {
             <label htmlFor="check" className="checkbtn">
                 <i className="fas fa-bars"></i>
             </label>
-            <label className="logo">Portfolio</label>
+            <label className="logo">Somya</label>
            
             <ul>
                 <li><a href="#About" >About</a></li>

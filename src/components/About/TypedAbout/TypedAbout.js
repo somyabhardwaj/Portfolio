@@ -7,7 +7,7 @@ export default function TypedAbout() {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['Somya Bhardwaj', 'a React JS Developer', 'a Web developer.'],
+      strings: ['Somya Bhardwaj', ' React JS Developer', ' Web developer.'],
       typeSpeed: 100,
       loop: true, // Set loop option to true
     });

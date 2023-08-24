@@ -5,19 +5,24 @@ import Projects from './components/Projects/projects';
  import './App.css';
 import TypedAbout from './components/About/TypedAbout/TypedAbout';
 import Foms from './components/Foms';
+import Footer from './components/Footer';
 
 function App() {
   return (
-   <div className="Body-div">
-   
-   <Navbar />
-  <TypedAbout />
-  <Projects />
-  <Foms />
-   <About />
-  
 
-   </div>
+   <>
+  <Navbar />
+  <TypedAbout />
+  <hr />
+  <Projects />
+  <hr />
+  <Foms />
+  <hr / >
+  <About />
+  <Footer />
+  
+</>
+
   );
 }
 

@@ -2,14 +2,23 @@
   padding: 0;
   margin: 0;
   }
-
-body {
-  background-color: #10125c;
+body{
+  background-color: rgb(233, 227, 227);
 }
-.Body-div{
-  background-color: #10125c;
+hr{
+ border:none;
+height: 20px;
+height: 50px;
+border-bottom: 2px solid rgb(0, 0, 0);
+box-shadow: 0 20px 20px -20px white;
+margin: 2em 1em ;
 }
 
+footer {
+  width:100%;
+  background-color:#131444;
+  height:15vh;
+}
 nav {
   background-color: #131444;
   height: 80px;
@@ -79,8 +88,8 @@ nav ul li a:hover {
 /* This is About Css */
 
 .About {
-  color: white;
-  background-color: transparent;
+  color: #585656;
+  background-color:whitesmoke;
   border: 2px solid white;
   border-radius: 20px;
   margin: 10vh 0;
@@ -96,7 +105,7 @@ nav ul li a:hover {
 }
 
 h1 {
-  color:white;
+  color:#585656;
   text-align: justify;
   text-justify: inter-word;
   text-decoration: underline;
@@ -104,7 +113,7 @@ h1 {
 }
 
 h3 {
-  color:white;
+  color:#585656;
   margin: 2vh 0;
   text-align: justify;
   text-justify: inter-word;
@@ -147,16 +156,17 @@ p {
 
 .wrap-text-p3:hover {
   font-size: 31px;
+  color:#585656;
 
 }
 
 .text-726060 {
-  color: white;
+  color: #585656;
 
 }
 
 .text-white {
-  color: white;
+  color: #585656;
 }
 
 .animation_text {
@@ -171,7 +181,8 @@ p {
 
 /* CSS for carosel */
 h2 {
-  color: white;
+  color: #585656;
+  text-decoration: underline;
 }
 
 /* Form css  */
@@ -182,6 +193,7 @@ h2 {
 }
 
 .fom {
+  background-color:whitesmoke;
   border: 2px solid white;
   width: 38%;
   height: 100%;
@@ -277,6 +289,7 @@ h2 {
 
   .wrap-text-p3:hover {
     font-size: 16px;
+    color:#585656;
 
   }
   p {

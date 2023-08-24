@@ -23,7 +23,7 @@ export default function TypedAbout() {
   return (
     <div className="TypedApp">
       <p className="text-726060 wrap-text-p">Hi, I am <span className="animation_text" ref={el} /></p>
-      <p className="text-726060 wrap-text-p2">Please <span className="wrap-text-p3"> <a className="text-white " href="#About">click</a></span>  here 
+      <p className="text-726060 wrap-text-p2">Kindly <span className="wrap-text-p3"> <a className="text-white " href="#About">click</a></span>  here 
       to find more<br/><br/> about me!!</p>
     </div>
   );

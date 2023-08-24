@@ -3,10 +3,11 @@ import React from 'react'
 
 function About() {
   return (
+<>
 
     <section className="About-Section" id="About">
 <div className="About d-flex justify-content-center alighn-items-center flex-column">
-<h1 className="d-flex justify-content-center alighn-items-center">About Me</h1>
+<h1 style={{color:'#585656'}} className="d-flex justify-content-center alighn-items-center">About Me</h1>
 
   <p> 
   Hey there!, I'm Somya, a React.js enthusiast skilled in Bootstrap, Tailwind CSS, and JavaScript. I specialize in creating captivating web interfaces that blend functionality and aesthetics seamlessly.</p>
@@ -36,6 +37,7 @@ function About() {
         <img src={Mypic} alt="Somya"/></div>
         <div className="right-section">right</div> */}
     </section>
+    </>
 
   )
 }

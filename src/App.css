@@ -6,12 +6,11 @@ body{
   background-color: rgb(233, 227, 227);
 }
 hr{
- border:none;
-height: 20px;
-height: 50px;
-border-bottom: 2px solid rgb(0, 0, 0);
+ border:2px solid;
+
+
 box-shadow: 0 20px 20px -20px white;
-margin: 2em 1em ;
+
 }
 
 footer {
@@ -130,7 +129,7 @@ p {
 
 /* Css for Typed */
 .TypedApp {
-  margin: 20vh 28%;
+  margin: 10vh 28%;
 
 
 }

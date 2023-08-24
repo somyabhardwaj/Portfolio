@@ -13,11 +13,10 @@ function App() {
    <>
   <Navbar />
   <TypedAbout />
-  <hr />
-  <Projects />
-  <hr />
+ <Projects />
+  <hr style={{margin:'4rem 10rem 4rem 10rem'}} />
   <Foms />
-  <hr / >
+  <hr style={{margin:'4rem 10rem 1rem 10rem'}} / >
   <About />
   <Footer />
   
